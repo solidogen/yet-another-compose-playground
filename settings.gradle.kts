@@ -12,5 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
 rootProject.name = "YetAnotherComposePlayground"
-include ':app'
+
+include(":app")
