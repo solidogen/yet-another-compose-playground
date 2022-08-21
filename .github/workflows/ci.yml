@@ -17,11 +17,13 @@ jobs:
       - name: Validate Gradle Wrapper
         uses: gradle/wrapper-validation-action@v1.0.3
 
+      - name: Run tests
+        run: ./gradlew test
+
       - name: Build apk
         if: github.ref == 'refs/heads/master'
         run: ./gradlew assembleRelease
 
-# todo run tests
 # todo run lint, detekt
 # todo run code coverage
 # todo sign/upload to firebase if needed
