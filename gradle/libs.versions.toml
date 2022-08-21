@@ -1,8 +1,8 @@
 [versions]
 
 # Build
-compileSdk = "32"
-targetSdk = "32"
+compileSdk = "33"
+targetSdk = "33"
 minSdk = "26"
 applicationId = "com.solidogen.yacp"
 
