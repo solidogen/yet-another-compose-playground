@@ -8,7 +8,7 @@ applicationId = "com.solidogen.yacp"
 
 # Plugins
 androidGradlePlug = "7.2.2"
-kotlinGradlePlug = "1.7.10"
+kotlinGradlePlug = "1.7.20"
 
 # Compose
 compose = "1.2.1"
