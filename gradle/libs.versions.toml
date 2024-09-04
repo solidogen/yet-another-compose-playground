@@ -13,7 +13,7 @@ kotlinGradlePlug = "1.7.10"
 # Compose
 compose = "1.2.1"
 composeCompiler = "1.3.0"
-composeMaterial3 = "1.0.0-alpha16"
+composeMaterial3 = "1.3.0"
 
 # Core
 coreKtx = "1.8.0"
